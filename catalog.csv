@@ -1,0 +1,12 @@
+title,name,description,country,repo-url,doc-url
+Base adresse locale,adresses,Addresses of a locality.,FR,https://git.opendatafrance.net/scdl/adresses/,https://scdl.opendatafrance.net/docs/schemas/adresses.html
+Budget des collectivités et établissements publics locaux,budget,Budget of a locality.,FR,https://git.opendatafrance.net/scdl/budget,https://scdl.opendatafrance.net/docs/schemas/budget.html
+DAE,DAE,Defibrillators in a locality.,FR,https://gitlab.com/arsante/atlasante/schema-dae/,
+Délibérations,deliberations,Votes of the assembly of a locality.,FR,https://git.opendatafrance.net/scdl/deliberations,https://scdl.opendatafrance.net/docs/schemas/deliberations.html
+Équipements,equipements,Public amenities of a locality.,FR,https://git.opendatafrance.net/scdl/equipements,https://scdl.opendatafrance.net/docs/schemas/equipements.html
+Infrastructures de recharge pour véhicules électriques,irve,Electric vehicle charging stations in a locality.,FR,https://github.com/etalab/schema-irve,https://scdl.opendatafrance.net/docs/schemas/irve.html
+Lieux de covoiturage,lieux-covoiturage,Carpools areas in a locality.,FR,https://github.com/etalab/schema-lieux-covoiturage,
+Lieux de stationnement,lieux-stationnement,Parking areas in a locality,FR,https://github.com/etalab/schema-stationnement,
+Marchés publics,marches-publics,Procurements of a locality.,FR,https://git.opendatafrance.net/scdl/marches-publics,https://scdl.opendatafrance.net/docs/schemas/marches-publics.html
+Prénoms des nouveaux-nés,prenoms,Names of babies born in a locality.,FR,https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes,https://scdl.opendatafrance.net/docs/schemas/prenoms.html
+Subventions,subventions,Subsidies given to associations by a locality.,FR,https://git.opendatafrance.net/scdl/subventions,https://scdl.opendatafrance.net/docs/schemas/subventions.html
