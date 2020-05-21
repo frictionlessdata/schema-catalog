@@ -1,0 +1,5 @@
+---
+title: Another Schema
+---
+
+<Schema />
