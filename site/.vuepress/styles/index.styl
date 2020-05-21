@@ -1,0 +1,37 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body, .nav-link, span.title, span.arrow-right, .navbar .site-name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black!important;
+}
+
+.navbar .site-name {
+  font-weight: 500!important;
+}
+
+.nav-link, span.title, span.arrow-right {
+  font-size: 18px;
+}
+
+.theme-default-content:not(.custom) {
+  max-width: 1200px!important;  
+}
+
+.main-button {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  width: fit-content;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
