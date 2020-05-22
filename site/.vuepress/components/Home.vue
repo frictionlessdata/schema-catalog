@@ -2,8 +2,8 @@
   <div class="banner home text-center">
     <h1 class="text-6xl font-normal"> {{ $page.frontmatter.title }} </h1>
     <p class="text-xl"> {{ $page.frontmatter.description }} </p>
-    <button class="main-button"><a class="text-white" href="/about/">Read More</a></button>
-    <button class="main-button"><a class="text-white" href="/catalog/">See Catalog</a></button>
+    <a class="text-white" href="/about/"><button class="main-button">Read More</button></a>
+    <a class="text-white" href="/catalog/"><button class="main-button">See Catalog</button></a>
   </div>
 </template>
 

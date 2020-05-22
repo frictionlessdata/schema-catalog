@@ -3,7 +3,8 @@
     <div class="flex lg:flex-row flex-col">
       <div class="lg:w-2/3 lg:px-20 pb-8 lg:pb-0">
         <a :href="$page.frontmatter.schemaUrl" target="_blank">
-          <img :src="$page.frontmatter.image" class="border-2 border-solid border-gray-100 shadow-md"></img>
+          <img v-if="$page.frontmatter.image" :src="$page.frontmatter.image" class="border-2 border-solid border-gray-100 shadow-md"></img>
+          <img v-if="!$page.frontmatter.image" src="https://www.pngkey.com/png/detail/518-5189986_curly-brackets-1.png" class="border-2 border-solid border-gray-100 shadow-md"></img>
         </a>
       </div>
       <div class="lg:w-1/3">
@@ -12,11 +13,11 @@
           <h2 class="pl-4"> {{ $page.frontmatter.title }} </h2>
         </div>
         <p class="text-xl"> {{ $page.frontmatter.description }} </p>
-        <div class="container">
+        <div v-if="$page.frontmatter.repoUrl" class="container">
           <img src="/repo-icon.svg" class="inline-block w-6"/>
           <a :href="$page.frontmatter.repoUrl" target="_blank" class="inline-block text-lg text-black pl-4">Repository</a>  
         </div>
-        <div class="container pt-2">
+        <div v-if="$page.frontmatter.docsUrl" class="container pt-2">
           <img src="/docs-icon.svg" class="inline-block w-6"/>
           <a :href="$page.frontmatter.docsUrl" target="_blank" class="inline-block text-lg text-black pl-4">Docs</a>  
         </div>

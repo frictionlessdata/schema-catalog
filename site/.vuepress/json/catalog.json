@@ -1,0 +1,90 @@
+[
+ {
+   "title": "Base adresse locale",
+   "name": "adresses",
+   "description": "Addresses of a locality.",
+   "country": "FR",
+   "repoUrl": "https://git.opendatafrance.net/scdl/adresses/",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/adresses.html"
+ },
+ {
+   "title": "Budget des collectivités et établissements publics locaux",
+   "name": "budget",
+   "description": "Budget of a locality.",
+   "country": "FR",
+   "repoUrl": "https://git.opendatafrance.net/scdl/budget",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/budget.html"
+ },
+ {
+   "title": "DAE",
+   "name": "DAE",
+   "description": "Defibrillators in a locality.",
+   "country": "FR",
+   "repoUrl": "https://gitlab.com/arsante/atlasante/schema-dae/",
+   "docsUrl": ""
+ },
+ {
+   "title": "Délibérations",
+   "name": "deliberations",
+   "description": "Votes of the assembly of a locality.",
+   "country": "FR",
+   "repoUrl": "https://git.opendatafrance.net/scdl/deliberations",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/deliberations.html"
+ },
+ {
+   "title": "Équipements",
+   "name": "equipements",
+   "description": "Public amenities of a locality.",
+   "country": "FR",
+   "repoUrl": "https://git.opendatafrance.net/scdl/equipements",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/equipements.html"
+ },
+ {
+   "title": "Infrastructures de recharge pour véhicules électriques",
+   "name": "irve",
+   "description": "Electric vehicle charging stations in a locality.",
+   "country": "FR",
+   "repoUrl": "https://github.com/etalab/schema-irve",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/irve.html"
+ },
+ {
+   "title": "Lieux de covoiturage",
+   "name": "lieux-covoiturage",
+   "description": "Carpools areas in a locality.",
+   "country": "FR",
+   "repoUrl": "https://github.com/etalab/schema-lieux-covoiturage",
+   "docsUrl": ""
+ },
+ {
+   "title": "Lieux de stationnement",
+   "name": "lieux-stationnement",
+   "description": "Parking areas in a locality",
+   "country": "FR",
+   "repoUrl": "https://github.com/etalab/schema-stationnement",
+   "docsUrl": ""
+ },
+ {
+   "title": "Marchés publics",
+   "name": "marches-publics",
+   "description": "Procurements of a locality.",
+   "country": "FR",
+   "repoUrl": "https://git.opendatafrance.net/scdl/marches-publics",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/marches-publics.html"
+ },
+ {
+   "title": "Prénoms des nouveaux-nés",
+   "name": "prenoms",
+   "description": "Names of babies born in a locality.",
+   "country": "FR",
+   "repoUrl": "https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/prenoms.html"
+ },
+ {
+   "title": "Subventions",
+   "name": "subventions",
+   "description": "Subsidies given to associations by a locality.",
+   "country": "FR",
+   "repoUrl": "https://git.opendatafrance.net/scdl/subventions",
+   "docsUrl": "https://scdl.opendatafrance.net/docs/schemas/subventions.html"
+ }
+]
