@@ -10,7 +10,7 @@ Spearheaded by OpenDataFrance, the French open data community has created 8 comm
 
 What we learned with Validata is that the schemas and tools we created in order to improve open data quality are only as good as their popularity. If only a few are using the schemas to publish their data, nobody else will follow these schemas and, immediately, the validator tool is not as useful anymore. The quality is not improving if the “standards” are not used. But, most importantly, a standard cannot be self-proclaimed.
 
-## Why Table Schema catalog?
+## Why Table Schema Catalog?
 
 A few months ago, Etalab has launched schema.data.gouv.fr, an official open data schema catalog specific to France. The idea was to go next-level and start a community-run schema catalog which would be both inclusive and international. First to share Table Schemas but it could also be open to other schemas such as Data Package Schemas or even others.
 
@@ -22,18 +22,19 @@ The website for the catalog should have all the features needed such as full-tex
 
 Those are some ideas that need to be expanded. We have to give schemas their chance to shine!
 
-**Situation:** Poor quality of open data
-**Question:** How to improve the quality of open data?
+**Situation:** Poor quality of open data   
+**Question:** How to improve the quality of open data?  
 
-1. Problem: Standardization of common datasets
-   Solution: Table Schemas
-   Example: A schema for the names of babies born in a city in a given year.
+1. **Problem:** Standardization of common datasets  
+   **Solution:** Table Schemas  
+   **Example:** A schema for the names of babies born in a city in a given year.  
 
-2. Problem: Checking the quality of datasets
-   Solution: Goodtables
-   Example: Validata, an adaptation of Goodtables for French open data.
+2. **Problem:** Checking the quality of datasets  
+   **Solution:** Goodtables  
+   **Example:** Validata, an adaptation of Goodtables for French open data.  
 
-3. Problem: Sharing open data standards
-   Solution: Schema Catalog
-   Example: SCDL, Schema.data.gouv.fr, Schemas.frictionlessdata.io
+3. **Problem:** Sharing open data standards  
+   **Solution:** Schema Catalog  
+   **Example:** SCDL, Schema.data.gouv.fr, Schemas.frictionlessdata.io  
+
 
