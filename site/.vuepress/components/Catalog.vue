@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import json from '../json/catalog.json'
+import json from '../../json/catalog.json'
 import { getLink } from '../util'
 
 export default {
